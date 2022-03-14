@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000000;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-image {
+    background-image: url("images/mountains-background.jpg");
+    min-height: 320px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: 70%;
+}
+
+.logo {
+    margin-right: 200px;
+}
+
+.main-container {
+    display: flex;
+    padding: 45px;
+    margin: 20px;
+    width: auto;
+}
+
+.nav-bar {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.nav-bar a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.contact-button {
+    border: 4px solid #526988;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.contact-button:hover {
+    background-color: #526988;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0;
+    transition-duration: 0.4s;
+}
+
+.dog-pic {
+    padding: 7px;
+}
+
+.dog-pic {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+}
+
+.about {
+    display: flex;
+    padding: 130px;
+}
+
+.col {
+    padding: 15px;
+}
+
+.col p {
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #526988;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+.info div {
+    padding: 12px;
+    width: 200px;
+}
+
+.download-btn {
+    background-color: #526988;
+    border: 4px solid #526988;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.download-btn:hover {
+    background-color: transparent;
+    transition-property: all;
+    transition-delay: 0;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+}
+
+.services {
+    display: flex;
+    background: #4f2943;
+    padding: 130px;
+}
+
+.services-container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.services-title {
+    margin-bottom: 70px;
+}
+
+.service-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 35px;
+    height: auto;
+    margin: 129px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.block {
+    height: 277px;
+    width: 288px;
+    padding: 12px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    border: 2px solid #9c3734;
+}
+
+.block p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+
+/* 
+.services {
+    background-color: #4f2943;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    opacity: 70%;
+    margin-bottom: 70px;
+}
+
+.service-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 169px;
+}
+
+.block {
+    background: transparant;
+    height: 250px;
+    width: 350px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    padding: 25px 35px; 
+    border: 1px solid #9c3734;
+} */
